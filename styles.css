@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --red :hsl(0, 78%, 62%);
+    --blue : hsl(212, 86%, 64%);
+    --dark-blue:  hsl(234, 12%, 34%);
+    --gray-blue: hsl(229, 6%, 66%);
+    --light-gray: hsl(0, 0%, 98%);
+    --cyan: hsl(180, 62%, 55%);
+    --orange: hsl(34, 97%, 64%);
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    font-size: 15px;
+}
+
+.headline{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--dark-blue);
+    margin-top: 6em
+}
+
+.headline p{
+    max-width: 500px;
+    text-align: center;
+    margin-top: 1em;
+}
+
+.ff-poppins-200{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+}
+
+.ff-poppins-400{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.ff-poppins-600{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.color-red{
+    color: var(--red);
+}
+
+.color-blue{
+    color: var(--blue);
+}
+
+.color-dark-blue{
+    color: var(--dark-blue);
+}
+
+.color-gray-blue{
+    color: var(--gray-blue);
+}
+
+.color-light-gray{
+    color: var(--light-gray);
+}
+
+.color-cyan{
+    color: var(--cyan);
+}
+
+.color-orange{
+    color: var(--orange);
+}
+
