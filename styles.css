@@ -41,6 +41,33 @@ body{
     font-size: 35px;
 }
 
+.card-container{
+    display: flex;
+}
+
+.card{
+    border-top: 4px solid var(--cyan);
+    margin-left: 1em;
+    border-radius: 5px;
+    padding: 1em;
+    box-shadow: 2px 5px 20px rgb(0,0,0,0.1);
+    min-width: 320px;
+}
+
+.card>p:nth-child(1){
+    font-size: 19px;
+}
+
+.card>p:nth-child(2){
+    margin-top: 1em;
+}
+
+.card > img {
+    float: right;
+    margin-top: 3em;
+    margin-right: 1em;
+}
+
 @media only screen and (max-width: 445px){
     .headline span{
         font-size: 19px;
