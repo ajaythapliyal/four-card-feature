@@ -46,20 +46,27 @@ body{
 }
 
 .card{
-    border-top: 4px solid var(--cyan);
-    margin-left: 1em;
+    border-top-width: 4px;
+    border-top-style: solid;
     border-radius: 5px;
     padding: 1em;
+    padding-bottom: 2em;
     box-shadow: 2px 5px 20px rgb(0,0,0,0.1);
     min-width: 320px;
 }
 
 .card>p:nth-child(1){
     font-size: 19px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: var(--dark-blue);
 }
 
 .card>p:nth-child(2){
     margin-top: 1em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    color: var(--gray-blue);
 }
 
 .card > img {
@@ -115,5 +122,21 @@ body{
 
 .color-orange{
     color: var(--orange);
+}
+
+.border-cyan{
+    border-color: var(--cyan);
+}
+
+.border-red{
+    border-color: var(--red);
+}
+
+.border-orange{
+    border-color: var(--orange);
+}
+
+.border-blue{
+    border-color: var(--blue);
 }
 
