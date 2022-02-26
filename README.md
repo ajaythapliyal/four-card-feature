@@ -23,4 +23,4 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://four-card-feature-beryl-iota.vercel.app/)
+- Live Site URL: https://four-card-feature-beryl-iota.vercel.app/
