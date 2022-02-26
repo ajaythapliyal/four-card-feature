@@ -62,7 +62,6 @@ body{
     padding-bottom: 2em;
     box-shadow: 2px 5px 20px rgb(0,0,0,0.1);
     min-width: 320px;
-    align-self: start;
 }
 
 .card>p:nth-child(1){
@@ -88,6 +87,12 @@ body{
 @media only screen and (max-width: 445px){
     .headline span{
         font-size: 19px;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .card{
+        min-width: 280px;
     }
 }
 
