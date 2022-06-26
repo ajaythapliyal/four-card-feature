@@ -2,14 +2,10 @@
 
 This is a solution to the [Four card feature section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK). 
 
-## Table of contents
+### Links
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
+- Live Site URL: https://four-card-feature-beryl-iota.vercel.app/
 
-## Overview
 
 ### The challenge
 
@@ -21,6 +17,4 @@ Users should be able to:
 
 ![](./screenshot.jpg)
 
-### Links
 
-- Live Site URL: https://four-card-feature-beryl-iota.vercel.app/
